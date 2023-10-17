@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Task Tracker';
+  constructor(){
+    sessionStorage.setItem("Dung", "dep trai")
+  }
 }
