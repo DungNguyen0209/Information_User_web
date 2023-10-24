@@ -5,6 +5,10 @@
     <fa-icon
       (click) = "onDelete(task)"
       [ngStyle]="{'color' : 'red'}"
+      [icon] = "faTimes" ></fa-icon>
+      <fa-icon
+      (click) = "onDelete(task)"
+      [ngStyle]="{'color' : 'green'}"
       [icon] = "faTimes" ></fa-icon></h3>
   <p>{{ task.day }}</p>
 </div>
